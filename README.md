@@ -19,7 +19,17 @@ The for function is used to take each line from the main file.
 Write() is used to write the lines of main file to the empty file or to the directed file.
 ## PROGRAM:
 ``````
-
+#Developed by: Abishai K C
+#Register NUmber: 23001564
+f = open("C:\\User\\abish\\Desktop\\sample\\Hello world.txt","r")
+d1 = f.read()
+f2 = open("copy_file.txt","w+")
+f2.write(d1)
+f2.seek(0)
+d2 = f2.read()
+print(d2)
+f.close()
+f2.close()
 ``````
 ### OUTPUT:
 
