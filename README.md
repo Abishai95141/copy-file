@@ -18,14 +18,11 @@ The for function is used to take each line from the main file.
 ### Step 6: 
 Write() is used to write the lines of main file to the empty file or to the directed file.
 ## PROGRAM:
-``````
-<<<<<<< HEAD
+```
 #Developed by: Abishai K C
 #Register NUmber: 23001564
 f = open("C:\\User\\abish\\Desktop\\sample\\Hello world.txt","r")
-=======
-f = open("C:\\User\\abish\\Desktop\\sample\\Hello world.txt","r"
->>>>>>> 0c33cc2a6510fabfb45973d2a4ac00dae47f7871
+
 d1 = f.read()
 f2 = open("copy_file.txt","w+")
 f2.write(d1)
@@ -34,7 +31,7 @@ d2 = f2.read()
 print(d2)
 f.close()
 f2.close()
-``````
+```
 ### OUTPUT:
 
 ![file copying](https://github.com/Abishai95141/copy-file/assets/139335314/efb7aaf0-9bde-4639-a194-99135259fa4a)
